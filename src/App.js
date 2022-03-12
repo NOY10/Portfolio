@@ -1,56 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+
 import './App.css';
+import {Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import useLocalStorage from 'use-local-storage';
+import Header from './Components/Header';
+import Homepage from './Components/Homepage';
+import Work from './Components/Work';
+import ContactF from './Components/ContactF';
+import { AnimatePresence } from 'framer-motion';
+import Scrolltotop from './Components/Scrolltotop';
+import Footer from './Components/Footer';
+import ChortenT from './Components/ChortenT';
+
 
 function App() {
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+  const location= useLocation();
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+    <div className="App" data-theme={theme}>
+      <Header theme={theme} setTheme={setTheme}/> 
+      <ChortenT />
+      <Scrolltotop />
+        <AnimatePresence exitBeforeEnter>
+            <Routes key={location.pathname} location={location}>
+              <Route exact path="/Homepage" element={<Homepage />}/>
+              <Route exact path="/Works" element={<Work />}/>
+              <Route exact path="/ContactMe" element={<ContactF />}/>
+              <Route path="*" element={<Navigate to="/Homepage" replace />} />
+            </Routes>
+      </AnimatePresence>
+      <Footer />
+      
     </div>
   );
 }

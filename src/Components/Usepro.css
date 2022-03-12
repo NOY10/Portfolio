@@ -1,0 +1,8 @@
+.Usepro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.react > .use {
+    margin-left: 20px;
+}

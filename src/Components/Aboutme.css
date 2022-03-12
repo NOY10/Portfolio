@@ -1,0 +1,23 @@
+
+.aboutMe{
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-primary);
+}
+.Intro{
+    width: 70%;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.greeting{
+    height: 600px;
+    margin: 5px;
+}
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
