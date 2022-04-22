@@ -27,7 +27,6 @@ body {
 .App {
   color: var(--text-primary);
   background-color: var(--background);
-  font-size: large;
   height: 100%;
   transition: all .2s linear;
   contain: paint;

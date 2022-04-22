@@ -1,6 +1,5 @@
 import React,  { Suspense } from 'react';
 import { Canvas} from "@react-three/fiber";
-import {  OrbitControls  } from '@react-three/drei';
 import "./Aboutme.css";
 import Greeting from './Threejs/Greeting';
 import Loading from './Loading';
@@ -34,7 +33,6 @@ const aboutMe = () => {
             <Greeting />
           </Suspense>
           
-          <OrbitControls />
         </Canvas>
           
           
@@ -46,7 +44,7 @@ const aboutMe = () => {
 
          <p> I <BsFillSuitHeartFill className='heart'/> </p>
 
-         <p style={{marginLeft:"40px"}}>Music, Photography, Machine Learning, Web and App Development, Gaming and Anime. </p>
+         <p style={{marginLeft:"40px"}}>Music, Photography, Chess[<a href='https://chess.com/play/Yonten2001' target='_SEJ'  rel='noreferrer' style={{color:'red'}}>Challenge Me</a>], Web and App Development, Gaming and Anime. </p>
          
         </div>
         

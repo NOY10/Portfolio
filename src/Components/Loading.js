@@ -1,9 +1,8 @@
 import React from 'react'
-import { Html, useProgress } from '@react-three/drei'
+import { Html } from '@react-three/drei'
 import Spinner from 'react-spinkit'
 
 function Loading() {
-  const progress = useProgress()
  
   return (
     <Html center><Spinner 

@@ -12,7 +12,15 @@ const propic = () => {
         <p>Hello, Welcome to My Portfolio</p>
       </div>
       <div className='propic'>
-        <p><span style={{fontSize:"30px"}}>Lobzang Yonten</span></p>
+        <p><span style={{fontFamily:'Square Peg, cursive',fontSize:'40px'}}>Lobzang Yonten</span> <br/> 
+          <span 
+            style={{marginLeft:"100px",fontSize:"30px"}}
+            role="img"
+            aria-label="emoji name"
+          >
+            "&#128513;"
+          </span>
+        </p>
         <Avatar className='me' src={pic} alt=''/>
       </div>
 
