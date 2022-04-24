@@ -27,6 +27,7 @@ function Usepro() {
   return (
     <div className='Usepro'>
     <div className='react'>
+    <p>I created my own Kuensel API that generates Top stories of KUENSEL. Refresh once 🙂</p>
     <p style={{fontWeight: 'bolder',fontSize:'large',textAlign: 'center'}}>Top Stories of <span style={{fontSize:'25px', fontFamily:'Playfair Display'}}>Kuensel</span></p>
     <div className='Kuensel'>
       {
