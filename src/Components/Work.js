@@ -5,6 +5,7 @@ import Slack from './img/Slack.png';
 import Linkedin from './img/linkedin.png';
 import Hulu from './img/Hulu.png';
 import Whatsapp from './img/whatsapp.png';
+import Samuh from './img/Samuh.png';
 
 const Work = () => {
   return (
@@ -36,6 +37,12 @@ const Work = () => {
                         <h3>Whatsapp Clone [Desktop Version]</h3>
                         <a href="https://whatsapp-2-0-13p69lumu-noy10.vercel.app/" target='_SEJ'  rel='noreferrer'>
                         <img src={Whatsapp} alt="whatsapp icon"/>
+                        </a>
+                    </div>
+                    <div className='info'>
+                        <h3>Samuh Clone [Desktop Version]</h3>
+                        <a href="https://samuh-clone.vercel.app/" target='_SEJ'  rel='noreferrer'>
+                        <img src={Samuh} alt="samuh icon"/>
                         </a>
                     </div>
                     

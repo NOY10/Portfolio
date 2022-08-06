@@ -42,8 +42,10 @@ header > .navMenu a{
   color: #fff;
 }
 
-header > .navMenu > a:active{
-  color: #15cdfc;
+.navMenu .active{
+  background-color: var(--text-primary);
+  border-radius: 2px;
+  color: var(--background);
  }
 
  
@@ -75,13 +77,13 @@ button {
 
 .header_right .moon{
   
-    background-color: orangered;
-    fill: black;
+    background: linear-gradient(rgb(59, 168, 227),rgb(136, 195, 227),rgb(59, 168, 227));
+    fill: rgb(222, 210, 102);
   
   }
   .header_right .sun{
-    background-color: purple;
-    fill: white;
+    background: linear-gradient(rgb(114, 76, 230),rgb(78, 35, 166),rgb(114, 76, 230));
+    fill: rgb(211, 237, 235);
     
   }
   @media screen and (max-width: 768px) {

@@ -1,5 +1,5 @@
 import React, { useRef, useState,useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes} from 'react-icons/fa';
 import "./Header.css";
 import { AnimatePresence, motion } from 'framer-motion'
@@ -44,9 +44,9 @@ const Header = ({theme,setTheme}) => {
         </div>
 
         <div className={clicked ? 'navMenu' : 'navMenu close'} onClick={showMenu}>
-          <Link  to="/Homepage">Home</Link>
-          <Link  to="/Works" >Works</Link>
-          <Link to="/ContactMe">Contact Me</Link>
+          <NavLink activeClassName="active" to="/Homepage">Home</NavLink>
+          <NavLink activeClassName="active" to="/Works" >Works</NavLink>
+          <NavLink activeClassName="active" to="/ContactMe">Contact Me</NavLink>
         </div>
         
         <div className='header_right'>
