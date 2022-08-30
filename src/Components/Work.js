@@ -20,27 +20,27 @@ const Work = () => {
                         </a>
                     </div>
                     <div className='info'> 
-                        <h2>Linkedin Clone [Desktop Version]</h2>
+                        <h2>LinkedIn Clone [Desktop Version]</h2>
                         <a href="https://linkedin-clone-f072e.web.app/" target='_SEJ'  rel='noreferrer'>
                         <img src={Linkedin} alt="linkedin icon"/>
                         </a>
                     </div>
                     
                     <div className='info'>
-                        <h3>Hulu Clone</h3>
+                        <h2>Hulu Clone</h2>
                         <a href="https://hulu-clone-noy10.vercel.app/" target='_SEJ'  rel='noreferrer'>
                         <img src={Hulu} alt="Hulu icon"/>
                         </a>
                     </div>
 
                     <div className='info'>
-                        <h3>Whatsapp Clone [Desktop Version]</h3>
+                        <h2>Whatsapp Clone [Desktop Version]</h2>
                         <a href="https://whatsapp-2-0-13p69lumu-noy10.vercel.app/" target='_SEJ'  rel='noreferrer'>
                         <img src={Whatsapp} alt="whatsapp icon"/>
                         </a>
                     </div>
                     <div className='info'>
-                        <h3>Samuh Clone [Desktop Version]</h3>
+                        <h2>Samuh Clone [Desktop Version]</h2>
                         <a href="https://samuh-clone.vercel.app/" target='_SEJ'  rel='noreferrer'>
                         <img src={Samuh} alt="samuh icon"/>
                         </a>

@@ -26,3 +26,15 @@
     font-size:12px;
 
 }
+.connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+.connect a img{
+    object-fit: contain;
+    height: 40px;
+    padding: 7px;
+}

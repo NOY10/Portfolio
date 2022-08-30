@@ -22,35 +22,35 @@ function Usepro() {
       
     }
     getData()
-  }, [])
+  }, [datas])
 
   return (
     <div className='Usepro'>
-    <div className='react'>
-    <p>I created my own Kuensel API that generates Top stories of KUENSEL. Refresh once 🙂</p>
-    <p style={{fontWeight: 'bolder',fontSize:'large',textAlign: 'center'}}>Top Stories of <span style={{fontSize:'25px', fontFamily:'Playfair Display'}}>Kuensel</span></p>
-    <div className='Kuensel'>
-      {
-        datas.map((data) => (
-          <div className='link' key={data.id}>
-            <a href={data.Url} target='_SEJ' rel='noreferrer'>{data.title}.</a>
-            <p>{data.date}</p>
+      <div className='react'>
+        <p>I created my own Kuensel API that generates Top stories of KUENSEL.🙂</p>
+        <p style={{fontWeight: 'bolder',fontSize:'large',textAlign: 'center'}}>Top Stories of <span style={{fontSize:'25px', fontFamily:'Playfair Display'}}>Kuensel</span></p>
+          <div className='Kuensel'>
+            {
+              datas.map((data) => (
+                <div className='link' key={data.id}>
+                  <a href={data.Url} target='_SEJ' rel='noreferrer'>{data.title}.</a>
+                  <p>{data.date}</p>
+                </div>
+              ))
+            }
           </div>
-        ))
-    }
-        
-       
+      </div>
+    <div className='connect'>
+      <a  href="https://github.com/NOY10" target='_SEJ'  rel='noreferrer'>
+        <img src="https://img.shields.io/badge/Github-black?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
+      </a>
+      <a href="https://www.linkedin.com/in/lobzang-yonten-b65168221/" target='_SEJ'  rel='noreferrer'>
+        <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+      </a>
+      <a href="https://twitter.com/lobzang_yonten" target='_SEJ'  rel='noreferrer'>
+        <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+      </a>
     </div>
-
-    </div>
-    {/* <div className='video'>
-        <VideoPlayer
-            controls={true}
-            src={Mp}
-            width="250"
-            height="250"
-        />
-    </div> */}
     
     </div>
   )

@@ -8,6 +8,12 @@
   
 }
 
+.work h1{
+    font-family: 'Water Brush', cursive;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
 .Home{
     margin: 0;
     display: flex;
@@ -20,6 +26,11 @@
     grid-template-columns: repeat(2,1fr);
   
 } 
+
+.works h2{
+    font-family: 'Water Brush', cursive;
+    font-weight: bolder;
+}
 
 .works > .info {
     display:flex;
