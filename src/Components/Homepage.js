@@ -16,7 +16,7 @@ const propic = () => {
         <p style={{marginLeft:"30px",fontSize:"13px"}}>"Every day is a second chance."</p>
           
         </p>
-        <Avatar className='me' src={pic} alt=''/>
+        <Avatar className='me' src={pic} alt='' loading="lazy"/>
       </div>
 
       <Aboutme />

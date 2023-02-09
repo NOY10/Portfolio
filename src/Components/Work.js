@@ -16,33 +16,33 @@ const Work = () => {
                     <div className='info'> 
                         <h2>Slack Clone [Desktop Version]</h2>
                         <a href="https://slack-clone-96342.web.app/" target='_SEJ'  rel='noreferrer'>
-                        <img src={Slack} alt="slack icon"/>
+                        <img src={Slack} alt="slack icon" loading="lazy"/>
                         </a>
                     </div>
                     <div className='info'> 
                         <h2>LinkedIn Clone [Desktop Version]</h2>
                         <a href="https://linkedin-clone-f072e.web.app/" target='_SEJ'  rel='noreferrer'>
-                        <img src={Linkedin} alt="linkedin icon"/>
+                        <img src={Linkedin} alt="linkedin icon" loading="lazy"/>
                         </a>
                     </div>
                     
                     <div className='info'>
                         <h2>Hulu Clone</h2>
                         <a href="https://hulu-clone-noy10.vercel.app/" target='_SEJ'  rel='noreferrer'>
-                        <img src={Hulu} alt="Hulu icon"/>
+                        <img src={Hulu} alt="Hulu icon" loading="lazy"/>
                         </a>
                     </div>
 
                     <div className='info'>
                         <h2>Whatsapp Clone [Desktop Version]</h2>
                         <a href="https://whatsapp-2-0-13p69lumu-noy10.vercel.app/" target='_SEJ'  rel='noreferrer'>
-                        <img src={Whatsapp} alt="whatsapp icon"/>
+                        <img src={Whatsapp} alt="whatsapp icon"loading="lazy"/>
                         </a>
                     </div>
                     <div className='info'>
                         <h2>Samuh Clone [Desktop Version]</h2>
                         <a href="https://samuh-clone.vercel.app/" target='_SEJ'  rel='noreferrer'>
-                        <img src={Samuh} alt="samuh icon"/>
+                        <img src={Samuh} alt="samuh icon" loading="lazy"/>
                         </a>
                     </div>
                     

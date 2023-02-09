@@ -40,7 +40,7 @@ const aboutMe = () => {
         
         <div className="Intro">
           <h2>About</h2>        
-          <p>Lobzang Yonten is an undergraduate student in College of Science and Technology pursuing B.E. in Information Technology.</p>
+          <p>Lobzang Yonten is an undergraduate student at the College of Science and Technology pursuing a B.E. in Information Technology.</p>
 
          <p> I <BsFillSuitHeartFill className='heart'/> </p>
 

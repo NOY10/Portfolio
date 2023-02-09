@@ -3,13 +3,13 @@ html{
 }
 
 :root {
-  --background:#BCBCBD;
+  --background:#f0e7db;
   --text-primary: black;
   --anime:#c764eb;
-  --paradiv:rgba(233, 233, 233,0.4);
+  --paradiv:rgba(245,240,232,0.4);
 }
 [data-theme='dark'] {
-  --background:  #202124;
+  --background:  #202023;
   --text-primary: white;
   --paradiv:rgba(54, 55, 58,0.4);
   --anime:#64d4eb;

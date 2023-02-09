@@ -26,7 +26,7 @@ function Usepro() {
 
   return (
     <div className='Usepro'>
-      <div className='react'>
+      {/* <div className='react'>
         <p>I created my own Kuensel API that generates Top stories of KUENSEL.🙂</p>
         <p style={{fontWeight: 'bolder',fontSize:'large',textAlign: 'center'}}>Top Stories of <span style={{fontSize:'25px', fontFamily:'Playfair Display'}}>Kuensel</span></p>
           <div className='Kuensel'>
@@ -39,16 +39,16 @@ function Usepro() {
               ))
             }
           </div>
-      </div>
+      </div> */}
       <div className='connect'>
         <a  href="https://github.com/NOY10" target='_SEJ'  rel='noreferrer'>
-          <img src="https://img.shields.io/badge/Github-black?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
+          <img src="https://img.shields.io/badge/Github-black?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge" loading="lazy"/>
         </a>
         <a href="https://www.linkedin.com/in/lobzang-yonten-b65168221/" target='_SEJ'  rel='noreferrer'>
-          <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+          <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" loading="lazy"/>
         </a>
         <a href="https://twitter.com/lobzang_yonten" target='_SEJ'  rel='noreferrer'>
-          <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+          <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge" loading="lazy"/>
         </a>
       </div>
     </div>

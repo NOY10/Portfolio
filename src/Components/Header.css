@@ -59,15 +59,6 @@ header > .navMenu a{
     padding: 7px;
     
 }
-.header_right .moon, .sun{
-    height: 35px;
-    width: 35px;
-    padding: 4px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s linear; 
-    
-}
 button {
   overflow: hidden; 
   background-color: var(--background-color); 
@@ -75,17 +66,6 @@ button {
  
 }
 
-.header_right .moon{
-  
-    background: linear-gradient(rgb(59, 168, 227),rgb(136, 195, 227),rgb(59, 168, 227));
-    fill: rgb(222, 210, 102);
-  
-  }
-  .header_right .sun{
-    background: linear-gradient(rgb(114, 76, 230),rgb(78, 35, 166),rgb(114, 76, 230));
-    fill: rgb(211, 237, 235);
-    
-  }
   @media screen and (max-width: 768px) {
     header > .navMenu{
       flex-direction: column;
@@ -111,14 +91,6 @@ button {
       color: var(--text-primary);
       transition: all 0.2s ease-in-out;
   }
-     
-    /* .header_right .moon, .sun {
-      position: absolute;
-      top: 10px;
-      right: 60px;
-      cursor: pointer;
-
-    } */
     .navMenu.close {
       right: -100%;
       transition: all 0.5s ease-in-out;
@@ -131,4 +103,11 @@ button {
     
   }
 
+.icon {
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: var(--anime);
 
+  
+}
