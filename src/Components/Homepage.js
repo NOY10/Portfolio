@@ -12,10 +12,10 @@ const propic = () => {
         <p>Hello, Welcome to My Portfolio</p>
       </div>
       <div className='propic'>
-        <p><span style={{fontFamily:'Square Peg, cursive',fontSize:'40px'}}>Lobzang Yonten</span> <br/> 
-        <p style={{marginLeft:"30px",fontSize:"13px"}}>"Every day is a second chance."</p>
-          
-        </p>
+        <div >
+          <p><span style={{fontFamily:'Square Peg, cursive',fontSize:'40px'}}>Lobzang Yonten</span> </p> 
+          <p style={{marginLeft:"30px",fontSize:"13px"}}>"Every day is a second chance."</p>
+        </div>
         <Avatar className='me' src={pic} alt='' loading="lazy"/>
       </div>
 
