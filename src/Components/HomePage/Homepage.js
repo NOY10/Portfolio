@@ -2,8 +2,8 @@ import React from 'react';
 import "./Homepage.css";
 import { Avatar } from '@material-ui/core';
 import Aboutme from './AboutMe';
-import Animatedpage from './Animatedpage';
-import pic from './img/Cool.png';
+import Animatedpage from '../Animatedpage';
+import pic from '../img/Cool.png';
 const propic = () => {
   return (
   <Animatedpage>

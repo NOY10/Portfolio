@@ -1,8 +1,8 @@
 import React,  { Suspense } from 'react';
 import { Canvas} from "@react-three/fiber";
 import "./Aboutme.css";
-import Greeting from './Threejs/Greeting';
-import Loading from './Loading';
+import Greeting from '../Threejs/Greeting';
+import Loading from '../Loading';
 import { BsFillSuitHeartFill} from 'react-icons/bs';
 
 

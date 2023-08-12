@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './ContactF.css';
-import Animatedpage from './Animatedpage';
-import Error from './Error';
-import { db } from './firebase';
+import Animatedpage from '../Animatedpage';
+import Error from '../Error/Error';
+import { db } from '../../config/firebase';
 import Usepro from './Usepro';
 
 
@@ -21,12 +21,7 @@ function ContactF() {
       setSend("Please fill in all required fields");
     }else{
       Setloader(true);
-      db.collection('contacts').add({
-        name:name,
-        email:email,
-        subject:subject,
-        message:message,
-      }).then(()=> {
+      db.then(()=> {
         setSend("Message has been send");
         // alert("Message has been send ")
         Setloader(false);

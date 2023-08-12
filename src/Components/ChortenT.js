@@ -1,6 +1,6 @@
 import React,{ Suspense }  from 'react';
 import { Canvas} from "@react-three/fiber";
-import {  OrbitControls  } from '@react-three/drei';
+// import {  OrbitControls  } from '@react-three/drei';
 import Loading from './Loading';
 import Chorten from './Threejs/Chorten';
 import './ChortenT.css';
@@ -28,7 +28,7 @@ function ChortenT() {
             <Chorten />
           </Suspense>
           
-          <OrbitControls />
+          {/* <OrbitControls /> */}
         </Canvas>
     </div>
   )

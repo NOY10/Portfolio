@@ -48,6 +48,7 @@ const Header = ({theme,setTheme}) => {
         <div className={clicked ? 'navMenu' : 'navMenu close'} onClick={showMenu}>
           <NavLink activeclassname="active" to="/Homepage">Home</NavLink>
           <NavLink activeclassname="active" to="/Works" >Works</NavLink>
+          <NavLink activeclassname="active" to="/Events">Events</NavLink>
           <NavLink activeclassname="active" to="/ContactMe">Contact Me</NavLink>
         </div>
         

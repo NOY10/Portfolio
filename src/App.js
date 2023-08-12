@@ -3,14 +3,15 @@ import React from 'react';
 import './App.css';
 import {Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import useLocalStorage from 'use-local-storage';
-import Header from './Components/Header';
-import Homepage from './Components/Homepage';
-import Work from './Components/Work';
-import ContactF from './Components/ContactF';
+import Header from './Components/Header/Header';
+import Homepage from './Components/HomePage/Homepage';
+import Work from './Components/Works/Work';
+import ContactF from './Components/ContactPage/ContactF';
 import { AnimatePresence } from 'framer-motion';
 import Scrolltotop from './Components/Scrolltotop';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer/Footer';
 import ChortenT from './Components/ChortenT';
+import Achievement from './Components/Achievement/Achievement';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Routes key={location.pathname} location={location}>
               <Route exact path="/Homepage" element={<Homepage />}/>
               <Route exact path="/Works" element={<Work />}/>
+              <Route exact path="/Events" element={<Achievement />}/>
               <Route exact path="/ContactMe" element={<ContactF />}/>
               <Route path="*" element={<Navigate to="/Homepage" replace />} />
             </Routes>

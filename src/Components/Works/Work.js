@@ -1,11 +1,11 @@
 import React from 'react';
 import "./Work.css";
-import Animatedpage from './Animatedpage';
-import Slack from './img/Slack.png';
-import Linkedin from './img/linkedin.png';
-import Hulu from './img/Hulu.png';
-import Whatsapp from './img/whatsapp.png';
-import Samuh from './img/Samuh.png';
+import Animatedpage from '../Animatedpage';
+import Slack from '../img/Slack.png';
+import Linkedin from '../img/linkedin.png';
+import Hulu from '../img/Hulu.png';
+import Whatsapp from '../img/whatsapp.png';
+import Samuh from '../img/Samuh.png';
 
 const Work = () => {
   return (
